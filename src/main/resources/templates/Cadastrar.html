@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IronWorksGym</title>
+        <link rel="stylesheet" type="text/css" href="/styleCss.css">
+          <div></div>
+    </head>          
+    <body>
+        <div class="Cadastro">
+           <h1>Cadastro</h1>
+        </div>
+        <div class="conta">
+         <h2>já possui uma conta?</h2>
+         <h2>Conecte-se a ela</h2>
+        </div>
+        
+        <form th:action="@{/IronWorksGym/usuario/add-usuario}" th:object="${usuario}" method="post">
+        <div class="divclass">
+            <input type="name" th:field="*{nome}" placeholder="nome" size="35" required>
+        </div>
+           <br><br>
+        <div class="divclass2">
+            <input type="date" th:field="*{dataNascimento}" placeholder="Data de nasimento" required>
+        </div>
+           <br><br>
+        <div class="divclass3">
+             <input type="email" th:field="*{email}" placeholder="email" size="35" required>
+        </div>
+            <br><br>
+        <div class="divclass4">
+             <input type="password" th:field="*{senha}" placeholder="senha" required>
+        </div>
+            <br><br>
+        <div class="divclass5">
+             <input type="text" th:field="*{cpf}" name="cpf" placeholder="CPF xxx.xxx.xxx-yy" pattern="\d{3}\.\d{3}.\d{3}-\d{2}" required>
+        </div>
+             <br><br>
+         <div class="divclass6">
+              <input type="tel" th:field="*{telefone}" name="tel" id="itel" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required placeholder="(xx) xxxx-xxxx">
+         </div>
+             <br><br>
+         <div class="divclass7">
+               <input type="text" th:field="*{torreApartamento}" placeholder="Torre/Apartamento" required>
+      </div>
+     <div class="voltar">
+        <button>Voltar</button>
+     </div>
+     <div class="cadastrar">
+        <button>Cadastrar</button>
+     </div>
+     
+     </form>
+     <div class="loginbotao">
+        <button>Login</button>
+        </a>
+     </div>
+    <div class="box">
+
+    </div>
+    <div class="box linha-vertical">
+        
+    </div>
+    </body>
+</html>

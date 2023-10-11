@@ -1,0 +1,131 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: linear-gradient(45deg, rgb(0, 0, 0), rgb(0, 0, 0))
+}
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(109, 49, 262, 100);
+    font-size: 20px;
+    border-radius: 10px;
+}
+button{
+    padding: 12px;
+    border: none;
+    color: white;
+    background-color: rgba(109, 49, 262, 100);
+    border-radius: 10px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: deepskyblue;
+}
+input:hover{
+    background-color: deepskyblue;
+}
+h1 {
+   color: rgba(109, 49, 262, 100);
+}
+h2 {
+   color: rgba(109, 49, 262, 100);
+}
+.divclass{
+color: rgba(109, 49, 262, 100);
+position: absolute;
+top: 25%;
+left: 5%;
+}
+.divclass2{
+    color: rgba(109, 49, 262, 100);
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    font-size: 10px;
+}
+.divclass3{
+    color: rgba(109, 49, 262, 100);
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    font-size: 20px;
+}
+.divclass4{
+    color: rgba(109, 49, 262, 100);
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    font-size: 20px;
+}
+.divclass5{
+    color: rgba(109, 49, 262, 100);
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    font-size: 20px;
+}
+.divclass6{
+    color: rgba(109, 49, 262, 100);
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    font-size: 20px;
+ }
+ .divclass7{
+    color: rgba(109, 49, 262, 100);
+    position: absolute;
+    top: 85%;
+    left: 5%;
+    font-size: 20px;
+}
+
+.Cadastro{
+ color: rgba(109, 49, 262, 100);
+position: absolute;
+top: 5%;
+left: 15%;
+font-size: 30px;
+}
+.login{
+color: rgb(190, 49, 262, 100);
+}
+.conta{
+    color: rgba(109, 49, 262, 100);
+   position: absolute;
+   top: 50vh;
+   left: 150vh;
+   font-size: 30px;
+   }
+.esqueceu-senha{
+    position: absolute;
+    top: 100%;
+    left: 5%;
+}
+.voltar{
+    position: absolute;
+    top: 110%;
+    left: 5%;
+}
+.cadastrar{
+    position: absolute;
+    top: 110%;
+    left: 35%;
+}
+.loginbotao{
+    position: absolute;
+    top: 110%;
+    left: 76%;
+}
+input::placeholder {
+    color: white;
+  }
+.box{
+    width: 50%;
+    float: left;
+    height: 50vh;
+    color: rgba(109, 49, 262, 100);
+}
+.linha-vertical{
+    border-right: 10px solid;
+    box-sizing: border-box;
+}
